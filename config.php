@@ -1,11 +1,15 @@
 <?php
 // config.php
 
-$host = 'dpg-d3j56rali9vc73dorfng-a.singapore-postgres.render.com';
-$db   = 'school'; // Измените на имя вашей новой БД, если оно отличается
-$user = 'user';
-$pass = '0urzMvp0cvo7Oi7D2CzXEorPHYfQOwZc';
+
+
+$db   = 'cells';
+$host = 'dpg-d4v9dk3e5dus73a9raig-a.singapore-postgres.render.com';
+$user = 'trams_db_user';
+$pass = 'Gbj0c9Akmi32On4MsJWjH4dLkUCnp31t';
+
 $dsn  = "pgsql:host=$host;dbname=$db";
+
 
 $options = [
     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
