@@ -1,13 +1,10 @@
 <?php
 // config.php
 
-
-
+$host = 'dpg-d5oau5chg0os73fgl3g0-a.singapore-postgres.render.com';
 $db   = 'cells';
-$host = 'dpg-d4v9dk3e5dus73a9raig-a.singapore-postgres.render.com';
-$user = 'trams_db_user';
-$pass = 'Gbj0c9Akmi32On4MsJWjH4dLkUCnp31t';
-
+$user = 'basebase_user';
+$pass = 'qTOhqwlCVZzvOzM69tvQr7EIMg6J6t8L';
 $dsn  = "pgsql:host=$host;dbname=$db";
 
 
